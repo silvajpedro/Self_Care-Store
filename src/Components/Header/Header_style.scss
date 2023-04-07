@@ -1,0 +1,43 @@
+
+
+%flex-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+header{
+    // border: solid;
+    height: 72.5vh;
+}
+.firstSection{
+    @extend %flex-items;
+    // border: solid;
+    height: 17vh;
+    padding-left:4vw;
+    div{
+        @extend %flex-items;
+        width: 20vw;
+        justify-content: space-around;
+        // border:solid;
+        padding-right:4vw;
+        img{
+            width: 2.2vw;
+            cursor: pointer;
+        }
+    }
+}
+.selfcare{
+    width:9vw;
+}
+.bannerSection{
+    @extend %flex-items;
+    justify-content: center;
+    height: 55vh;
+    background-image: url(../../assets/banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    img{
+        width: 38.88vw;
+    }
+}
