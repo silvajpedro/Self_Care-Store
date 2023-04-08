@@ -5,7 +5,6 @@ export default function Card({products}){
         <>
             <figure>
                 <div className="productBox">
-
                 <img src={products} alt="produto loja" />
                 </div>
                 <figcaption>Lorem ipsum dolor sit</figcaption>

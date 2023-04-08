@@ -1,0 +1,92 @@
+@import "../Header/Header_style.scss";
+
+footer {
+  background-color: #f9f9f9;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  height: 55vh;
+}
+
+.firstSectionFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1px solid #a5a1a1;
+  border-top: 0.1px solid #a5a1a1;
+  height: 35vh;
+  width: 100%;
+  padding: 0 4.2vw 0 4.2vw;
+}
+.firstNavFooter {
+  ul {
+    list-style: none;
+    line-height: 30px;
+  }
+}
+
+.notificationBox {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40.4vw;
+  height: 16vh;
+  form {
+    display: flex;
+  }
+  input {
+    width: 28.9vw;
+    border-radius: 5px 0px 0px 5px;
+    border: solid 1px #d9d9d9;
+    padding: 10px;
+    &::placeholder {
+      color: #a8a4a4;
+      font-size: 20px;
+    }
+  }
+
+  button {
+    background-color: #5ca720;
+    color: #f9f9f9;
+    font-weight: 800;
+    height: 7.2vh;
+    width: 10.95vw;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    &:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+}
+
+.secondSectionFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 22vh;
+  nav {
+    @extend .secondSectionFooter;
+  }
+  .secondNavFooter {
+    width: 6.2vw;
+    margin-left: 4vw;
+    img {
+      width: 33.48px;
+      height: 33.48px;
+      cursor: pointer;
+    }
+  }
+  .thirdNavFooter {
+    width: 16vw;
+    margin-right: 4vw;
+    img {
+      width: 60px;
+      height: 50.5px;
+      cursor: pointer;
+    }
+  }
+}
