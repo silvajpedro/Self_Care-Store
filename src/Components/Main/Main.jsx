@@ -12,7 +12,7 @@ import Produto8 from "../../assets/produto9.jpg"
 export default function Main(){
     return(
         <main>
-            <div>
+            <div className="DivText">
                 <p className="promotionText">PROMOÇÃO</p>
                 <p className="productsText">9 produtos</p>
             </div>
