@@ -26,13 +26,13 @@ export default function Footer() {
       </section>
       <section className="secondSectionFooter">
         <nav className="secondNavFooter">
-            <img src={Instagram} alt="" />
-            <img src={Facebook} alt="" />
+            <img src={Instagram} alt="instagram icon" />
+            <img src={Facebook} alt="facebook icon" />
         </nav>
         <nav className="thirdNavFooter">
-            <img src={Mastercard} alt="" />
-            <img src={Paypal} alt="" />
-            <img src={Visa} alt="" />
+            <img src={Mastercard} alt="mastercard icon" />
+            <img src={Paypal} alt="paypal icon" />
+            <img src={Visa} alt="visa icon" />
         </nav>
       </section>
     </footer>

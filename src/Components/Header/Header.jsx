@@ -10,13 +10,13 @@ export default function Header(){
             <section className="firstSection">
                 <img className="selfcare" src={Logo} alt=""/>
                 <div>
-                    <img src={Search} alt="" />
-                    <img src={Contato} alt="" />
-                    <img src={Carrinho} alt="" />
+                    <img src={Search} alt="search input icon" />
+                    <img src={Contato} alt="contact icon" />
+                    <img src={Carrinho} alt="car shop icon" />
                 </div>
             </section>
             <section className="bannerSection">
-        <img src={Frame} alt="" />
+        <img src={Frame} alt="offer image" />
             </section>
         </header>
     )
