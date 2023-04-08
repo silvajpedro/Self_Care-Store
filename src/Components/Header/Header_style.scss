@@ -8,12 +8,13 @@
 
 header{
     // border: solid;
-    height: 72.5vh;
+    height: 70vh;
+    width: 100%;
 }
 .firstSection{
     @extend %flex-items;
     // border: solid;
-    height: 17vh;
+    height: 16vh;
     padding-left:4vw;
     div{
         @extend %flex-items;
@@ -32,6 +33,7 @@ header{
 }
 .bannerSection{
     @extend %flex-items;
+    // border: solid;
     justify-content: center;
     height: 55vh;
     background-image: url(../../assets/banner.png);
